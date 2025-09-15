@@ -45,7 +45,7 @@ const Hero = () => {
               Hire Me Now! <i className="bx bx-right-arrow-alt"></i>
             </a>
             <a
-              href="img/resume.docx"
+              href="img/Resume-IT.pdf"
               target="_blank"
               className="btn d-CV bg-white text-black px-6 py-2 rounded shadow hover:bg-gray-100 transition"
             >
