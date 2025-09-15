@@ -16,6 +16,17 @@ const Hero = () => {
     }
   }, []);
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = 'img/Resume-IT.pdf';
+    link.download = 'Nirmal_Resume.pdf';
+    link.target = '_blank';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="home" id="home">
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full max-w-6xl mx-auto py-12 px-4">
@@ -44,13 +55,12 @@ const Hero = () => {
             >
               Hire Me Now! <i className="bx bx-right-arrow-alt"></i>
             </a>
-            <a
-              href="img/Resume-IT.pdf"
-              target="_blank"
+            <button
+              onClick={handleDownloadCV}
               className="btn d-CV bg-white text-black px-6 py-2 rounded shadow hover:bg-gray-100 transition"
             >
               Download CV <i className="bx bx-download"></i>
-            </a>
+            </button>
           </div>
           <div className="social-media flex gap-6">
             <div className="bg-icon">
