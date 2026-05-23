@@ -34,19 +34,20 @@ const Hero = () => {
         <div className="hero-info flex-1 text-left md:pr-12">
           <h3 className="text-left text-gray-500 text-lg mb-2">WELCOME</h3>
           <h1 className="font-bold text-5xl md:text-6xl mb-2 text-left">
-            Hi I'm <span className="text-fuchsia-600">N</span>irmal
+            Hi, I'm <span className="text-fuchsia-600">N</span>irmal
           </h1>
           <div className="text-animate text-left mb-2">
-            <h2 className="text-3xl md:text-4xl font-semibold text-fuchsia-700">
-              Software Developer
+            <h2 className="text-2xl  md:text-4xl font-semibold text-fuchsia-700">
+              Full Stack Developer
             </h2>
           </div>
           <p className="text-left max-w-xl text-gray-500 mb-6">
-            A passionate Software Developer with strong expertise in React,
-            Next.js and modern frontend technologies. I love turning complex
-            ideas into user-friendly, pixel-perfect interfaces. When I’m not
-            coding, I'm exploring the latest web trends or mentoring aspiring
-            developers.
+            Software Developer with 1.5+ years building production web apps
+            with React, Next.js, TypeScript, and Node.js. Currently shipping
+            full-stack features in healthcare and finance at Central Apps, and
+            building MERN side projects with MongoDB, Express, JWT, and
+            Cloudinary. I care about clean code, smooth UX, and shipping things
+            that actually work in production.
           </p>
           <div className="btn-box flex gap-4 mb-6">
             <a
@@ -99,7 +100,7 @@ const Hero = () => {
           />
           <div className="rotate-text">
             <div className="text">
-              <p ref={textRef}>I'm Software Developer I'm Designer</p>
+              <p ref={textRef}>Full Stack Developer · MERN · Next.js · </p>
             </div>
             <span>
               <i></i>

@@ -5,36 +5,40 @@ const About = () => {
 
   const tabContent = [
     {
-      title: "Main Skills",
+      title: "Experience",
       content: [
         {
-          title: "Web & User Interface Design - Development",
-          experience: "Experience: 1 year+ in Central Apps (Present)",
+          title: "Central Apps — Software Developer",
+          experience: "Aug 2024 – Present · 1.5+ yrs · Full-stack (React, Next.js, Node.js, MongoDB)",
         },
         {
-          title: "Data Analyst",
-          experience: "Experience : 3 months - Course.",
+          title: "Seval Software Solutions — Backend Intern",
+          experience: "Jul 2023 – Aug 2023 · Python, Tkinter, MySQL",
         },
         {
-          title: "Backend Development -Seval software solution",
-          experience: "Experience : 1 month- Intern",
+          title: "Self-Driven Projects",
+          experience: "Job Tracker (MERN), Blog App (MERN) — deployed on Vercel + Render",
         },
       ],
     },
     {
-      title: "Certification",
+      title: "Certifications",
       content: [
         {
-          title: "Python Basic to Advance Concept",
-          experience: "Pantech E-Learning",
-        },
-        {
-          title: "Workshop on Full Stack Development",
+          title: "Full Stack Development Workshop",
           experience: "Elysium Academy",
         },
         {
-          title: "Data Analyst",
+          title: "Python Programming — Basic to Advanced",
+          experience: "Pantech eLearning",
+        },
+        {
+          title: "Data Analysis & Visualization with Power BI",
           experience: "Oranium Tech",
+        },
+        {
+          title: "Arduino & Cisco Networking Workshops",
+          experience: "IIT Bombay · Cisco",
         },
       ],
     },
@@ -42,16 +46,16 @@ const About = () => {
       title: "Education",
       content: [
         {
-          title: "Higher Secondary School [81%]",
-          experience: "K.C.Sankaralinga Nadar Higher Secondary school",
+          title: "B.E. — Electronics & Communication Engineering",
+          experience: "St. Joseph College of Engineering · 2020–2024 · CGPA 8.32",
         },
         {
-          title: "Bachelor's Degree in Electronics & Communication [CGPA-8.32]",
-          experience: "St Joseph College of Engineering",
+          title: "Higher Secondary (HSC) — 81%",
+          experience: "K.C. Sankaralinga Nadar Hr. Sec. School",
         },
         {
-          title: "Work Experience in Central Apps",
-          experience: "Software Developer -(Aug-2-24 - Present)",
+          title: "Secondary (SSLC) — 82%",
+          experience: "St. Roque's Matriculation School",
         },
       ],
     },
@@ -68,19 +72,20 @@ const About = () => {
       <div className="about-content">
         <h2 className="font-bold text-3xl">About Me</h2>
         <h3 className="font-semibold text-2xl">
-          Software Developer (Aug 2024 – Present)
+          Full Stack Developer @ Central Apps
         </h3>
         <p>
-          As a dedicated Software Developer with over 1 year and 2 months of
-          specialized experience in front-end web development, I am now
-          expanding my expertise to the back end, delving into server-side
-          programming to build comprehensive full-stack solutions.
+          I'm a Software Developer with 1.5+ years of production experience
+          building modern web apps with React, Next.js, TypeScript, and
+          Tailwind. Day-to-day at Central Apps, I ship full-stack features for
+          healthcare (Nexycare) and finance (Stockport) clients.
         </p>
         <p>
-          Leveraging my knowledge of Database Management, TypeScript, React,
-          JavaScript, HTML/CSS, and Node.js, I strive to bridge the gap between
-          design and technical implementation, ensuring seamless functionality
-          and a dynamic presence on the web.
+          Outside of work, I'm growing my backend skills with Node.js, Express,
+          MongoDB, and JWT — and I've shipped two full MERN projects (Job
+          Tracker and Blog App) deployed on Vercel and Render. I use Claude,
+          GitHub Copilot, and ChatGPT daily for code review and to ship faster
+          without cutting corners.
         </p>
 
         <div className="about-btn">

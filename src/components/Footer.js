@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <p>Copyright © 2024 by <span>Nirmal Kumar</span> || All Right Reserved.</p>
+        <p>© 2026 <span>Nirmal Kumar G</span> · Full Stack Developer · All Rights Reserved.</p>
       </footer>
 
       <div id="progress" onClick={scrollToTop}>

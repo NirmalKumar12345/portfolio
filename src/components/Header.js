@@ -119,12 +119,14 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/nirmal-kumar-g-996b43281" className="btn">
           Let's chat <i className='bx bx-message-dots'></i>
         </a>
-        <div 
-          className={`menu-icon ${isMenuOpen ? 'active' : ''}`}
+        <button
+          type="button"
+          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+          className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
         >
-          <div className="bar"></div>
-        </div>
+          <i className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'}`}></i>
+        </button>
       </div>
     </header>
     </>

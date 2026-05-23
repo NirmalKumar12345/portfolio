@@ -4,20 +4,20 @@ const Services = () => {
   const services = [
     {
       icon: 'bx bx-code-alt',
-      title: 'Web Development',
-      description: 'Web development services help you build custom websites that are fast, user-friendly, and designed to meet your specific business goals.',
+      title: 'Full Stack Web Development',
+      description: 'End-to-end web apps with Next.js + Node.js + MongoDB. From component-driven UIs in shadcn/ui to REST APIs, JWT auth, and production deployment on Vercel and Render.',
       link: '#'
     },
     {
       icon: 'bx bx-desktop',
-      title: 'UI / UX Designs',
-      description: 'Great web design focuses on creating beautiful, easy-to-navigate websites that showcase your brand and connect with your audience, keeping them engaged and coming back for more.',
+      title: 'Frontend Engineering',
+      description: 'Pixel-precise, accessible, responsive interfaces in React, Next.js, TypeScript, and Tailwind CSS. Performance-tuned for fast loads and clean code that other devs can build on.',
       link: '#'
     },
     {
-      icon: 'bx bx-layer',
-      title: 'Data Analyst',
-      description: 'Effective data analysis turns raw data into valuable insights, helping businesses make informed decisions and uncover growth opportunities. A skilled data analyst focuses on identifying patterns, solving problems, and driving data-driven strategies.',
+      icon: 'bx bx-server',
+      title: 'API & Backend Development',
+      description: 'REST APIs in Node.js + Express with structured validation (Zod, express-validator), JWT auth, role-based access, and Cloudinary uploads — built around MongoDB or MySQL.',
       link: '#'
     }
   ];
@@ -38,18 +38,50 @@ const Services = () => {
             </div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
-            <a href={service.link} className="readMore">Click Me</a>
           </div>
         ))}
       </div>
 
-      <div className="proposal" style={{ height: '800px' }}>
-        <div className="text-box">
-          <span>Get It Touch</span>
-          <h3>Have a Project On Your Mind</h3>
-          <a href="https://www.linkedin.com/in/nirmal-kumar-g-996b43281" className="btn">Contact Me</a>
+      <div className="cta-modern">
+        <div className="cta-content">
+          <span className="cta-label">Let's collaborate</span>
+          <h3>Have a project in mind?</h3>
+          <p>
+            I'm open to full-time roles, freelance work, and interesting
+            collaborations. If you're hiring or have an idea worth building,
+            let's talk.
+          </p>
+          <div className="cta-actions">
+            <a
+              href="mailto:nirmal6054@gmail.com"
+              className="btn"
+            >
+              Email Me <i className="bx bx-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nirmal-kumar-g-996b43281"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+            >
+              Message on LinkedIn <i className="bx bxl-linkedin"></i>
+            </a>
+          </div>
         </div>
-        <img src="/img/My.png" className="first" alt="Nirmal Kumar" />
+        <div className="cta-stats">
+          <div className="cta-stat">
+            <span className="cta-stat-num">1.5+</span>
+            <span className="cta-stat-label">Years experience</span>
+          </div>
+          <div className="cta-stat">
+            <span className="cta-stat-num">10+</span>
+            <span className="cta-stat-label">Projects shipped</span>
+          </div>
+          <div className="cta-stat">
+            <span className="cta-stat-num">2</span>
+            <span className="cta-stat-label">Production clients</span>
+          </div>
+        </div>
       </div>
 
       <div className="showcase">
