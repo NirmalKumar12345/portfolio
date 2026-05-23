@@ -58,7 +58,7 @@ const Portfolio = () => {
       id: 6,
       category: 'frontend',
       tags: ['React', 'CSS'],
-      image: '/img/portfolio/ecommerce.png',
+      image: '/img/portfolio/Ecommerce.png',
       title: 'Mini E-commerce',
       description:
         'Modern e-commerce frontend in React with mobile-friendly product listings, detail pages, shopping cart, and search.',
