@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <section className="home" id="home">
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full max-w-6xl mx-auto py-12 px-4">
+      <div className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full max-w-6xl mx-auto px-4">
         {/* Left: Hero Text */}
         <div className="hero-info flex-1 text-left md:pr-12">
           <h3 className="text-left text-gray-500 text-lg mb-2">WELCOME</h3>

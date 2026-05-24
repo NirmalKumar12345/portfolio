@@ -136,7 +136,7 @@ html { scroll-behavior: smooth; }
 body::before {
   content: '';
   position: fixed;
-  top: 10%;
+  top: 2%;
   right: 5%;
   width: 400px;
   height: 400px;
@@ -1554,12 +1554,28 @@ section.about {
 
 /* ---------- Footer ---------- */
 footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 24px 20px !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background: var(--bg-secondary) !important;
   border-top: 1px solid var(--border) !important;
-  color: var(--text-muted) !important;
+
+  position: relative;
+  left: 0;
+  right: 0;
+
+  box-sizing: border-box;
 }
 footer p {
-  color: var(--text-muted) !important;
+  margin: 0 !important;
+  text-align: center;
+  line-height: 1.6;
 }
 footer span {
   background: var(--accent-gradient);
